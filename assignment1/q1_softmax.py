@@ -14,3 +14,8 @@ def softmax(x):
     http://docs.scipy.org/doc/numpy/user/basics.broadcasting.html
 
     You should also make sure that your code works for a single
+    N-dimensional vector (treat the vector as a single row) and
+    for M x N matrices. This may be useful for testing later. Also,
+    make sure that the dimensions of the output match the input.
+
+    You must implement the optimization in problem 1(a) of the
