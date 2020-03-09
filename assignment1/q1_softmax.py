@@ -19,3 +19,7 @@ def softmax(x):
     make sure that the dimensions of the output match the input.
 
     You must implement the optimization in problem 1(a) of the
+    written assignment!
+
+    Arguments:
+    x -- A N dimensional vector or M x N dimensional numpy matrix.
