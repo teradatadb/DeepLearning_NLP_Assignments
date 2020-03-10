@@ -23,3 +23,8 @@ def softmax(x):
 
     Arguments:
     x -- A N dimensional vector or M x N dimensional numpy matrix.
+
+    Return:
+    x -- You are allowed to modify x in-place
+    """
+    orig_shape = x.shape
