@@ -41,3 +41,13 @@ def softmax(x):
         x_sub_max = x - np.max(x)
         x = np.exp(x_sub_max) / np.sum(np.exp(x_sub_max))
         ### END YOUR CODE
+
+    assert x.shape == orig_shape
+    return x
+
+
+def test_softmax_basic():
+    """
+    Some simple tests to get you started.
+    Warning: these are not exhaustive.
+    """
