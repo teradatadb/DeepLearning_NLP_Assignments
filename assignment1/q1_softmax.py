@@ -61,3 +61,5 @@ def test_softmax_basic():
     print(test2)
     ans2 = np.array([
         [0.26894142, 0.73105858],
+        [0.26894142, 0.73105858]])
+    assert np.allclose(test2, ans2, rtol=1e-05, atol=1e-06)
