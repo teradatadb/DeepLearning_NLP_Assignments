@@ -63,3 +63,10 @@ def test_softmax_basic():
         [0.26894142, 0.73105858],
         [0.26894142, 0.73105858]])
     assert np.allclose(test2, ans2, rtol=1e-05, atol=1e-06)
+
+    test3 = softmax(np.array([[-1001,-1002]]))
+    print(test3)
+    ans3 = np.array([0.73105858, 0.26894142])
+    assert np.allclose(test3, ans3, rtol=1e-05, atol=1e-06)
+
+    print("You should be able to verify these results by hand!\n")
