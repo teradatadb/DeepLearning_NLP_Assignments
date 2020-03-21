@@ -70,3 +70,8 @@ def test_softmax_basic():
     assert np.allclose(test3, ans3, rtol=1e-05, atol=1e-06)
 
     print("You should be able to verify these results by hand!\n")
+
+
+def test_softmax():
+    """
+    Use this space to test your softmax implementation by running:
