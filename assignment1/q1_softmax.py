@@ -75,3 +75,11 @@ def test_softmax_basic():
 def test_softmax():
     """
     Use this space to test your softmax implementation by running:
+        python q1_softmax.py
+    This function will not be called by the autograder, nor will
+    your tests be graded.
+    """
+    print("Running your tests...")
+    ### YOUR CODE HERE
+    #raise NotImplementedError
+    ### END YOUR CODE
