@@ -83,3 +83,8 @@ def test_softmax():
     ### YOUR CODE HERE
     #raise NotImplementedError
     ### END YOUR CODE
+
+
+if __name__ == "__main__":
+    test_softmax_basic()
+    test_softmax()
