@@ -1,3 +1,3 @@
 #!/usr/bin/env python
 
-import nu
+import numpy as 
