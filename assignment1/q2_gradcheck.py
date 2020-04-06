@@ -1,3 +1,4 @@
 #!/usr/bin/env python
 
-import numpy as 
+import numpy as np
+im
