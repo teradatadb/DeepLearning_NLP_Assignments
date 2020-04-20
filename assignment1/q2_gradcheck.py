@@ -4,4 +4,4 @@ import numpy as np
 import random
 
 
-# First im
+# First implement
