@@ -4,4 +4,4 @@ import numpy as np
 import random
 
 
-# First implement a gradient checker b
+# First implement a gradient checker by fil
