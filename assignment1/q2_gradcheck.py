@@ -5,4 +5,5 @@ import random
 
 
 # First implement a gradient checker by filling in the following functions
-def gradcheck_naive(f
+def gradcheck_naive(f, x):
+ 
