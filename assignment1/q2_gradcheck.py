@@ -8,4 +8,4 @@ import random
 def gradcheck_naive(f, x):
     """ Gradient check for a function f.
 
-    
+    Argum
