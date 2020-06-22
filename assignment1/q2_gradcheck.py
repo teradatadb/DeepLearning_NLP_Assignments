@@ -9,4 +9,4 @@ def gradcheck_naive(f, x):
     """ Gradient check for a function f.
 
     Arguments:
-    f -- a funct
+    f -- a function 
