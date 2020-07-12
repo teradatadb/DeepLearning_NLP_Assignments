@@ -10,4 +10,4 @@ def gradcheck_naive(f, x):
 
     Arguments:
     f -- a function that takes a single argument and outputs the
-         cost a
+         cost and its g
