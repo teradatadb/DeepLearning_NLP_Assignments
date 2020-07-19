@@ -11,4 +11,4 @@ def gradcheck_naive(f, x):
     Arguments:
     f -- a function that takes a single argument and outputs the
          cost and its gradients
-    x -- the poin
+    x -- the point (n
