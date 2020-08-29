@@ -15,4 +15,4 @@ def gradcheck_naive(f, x):
     """
 
     rndstate = random.getstate()
-    ra
+    rand
