@@ -14,4 +14,5 @@ def gradcheck_naive(f, x):
     x -- the point (numpy array) to check the gradient at
     """
 
-    rndstate = random.getstate(
+    rndstate = random.getstate()
+    ra
