@@ -16,4 +16,4 @@ def gradcheck_naive(f, x):
 
     rndstate = random.getstate()
     random.setstate(rndstate)
-    fx, grad = f(x
+    fx, grad = f(x) # Evalu
