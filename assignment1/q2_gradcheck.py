@@ -16,4 +16,4 @@ def gradcheck_naive(f, x):
 
     rndstate = random.getstate()
     random.setstate(rndstate)
-    fx, grad = f(x) # Evaluate funct
+    fx, grad = f(x) # Evaluate functio
