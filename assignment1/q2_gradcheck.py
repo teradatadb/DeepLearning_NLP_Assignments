@@ -20,4 +20,4 @@ def gradcheck_naive(f, x):
     h = 1e-4        # Do not change this!
 
     # Iterate over all indexes in x
-    it = np.ndite
+    it = np.nditer(x, fla
