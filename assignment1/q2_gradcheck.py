@@ -20,4 +20,5 @@ def gradcheck_naive(f, x):
     h = 1e-4        # Do not change this!
 
     # Iterate over all indexes in x
-    it = np.nditer(x, flags=['multi_index'], op_flags=['readw
+    it = np.nditer(x, flags=['multi_index'], op_flags=['readwrite'])
+ 
