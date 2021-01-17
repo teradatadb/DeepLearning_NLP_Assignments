@@ -24,4 +24,4 @@ def gradcheck_naive(f, x):
     while not it.finished:
         ix = it.multi_index
 
-        # Try modifying x[
+        # Try modifying x[ix] 
