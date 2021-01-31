@@ -25,4 +25,4 @@ def gradcheck_naive(f, x):
         ix = it.multi_index
 
         # Try modifying x[ix] with h defined above to compute
-        # numerical gradient
+        # numerical gradients. Make 
