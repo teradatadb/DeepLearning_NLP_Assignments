@@ -25,4 +25,4 @@ def gradcheck_naive(f, x):
         ix = it.multi_index
 
         # Try modifying x[ix] with h defined above to compute
-        # numerical gradients. Make sure you ca
+        # numerical gradients. Make sure you call rand
