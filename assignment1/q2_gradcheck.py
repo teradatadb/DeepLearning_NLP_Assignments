@@ -27,4 +27,4 @@ def gradcheck_naive(f, x):
         # Try modifying x[ix] with h defined above to compute
         # numerical gradients. Make sure you call random.setstate(rndstate)
         # before calling f(x) each time. This will make it possible
-        # to test cost functions with built in 
+        # to test cost functions with built in rando
