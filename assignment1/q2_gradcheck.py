@@ -28,3 +28,4 @@ def gradcheck_naive(f, x):
         # numerical gradients. Make sure you call random.setstate(rndstate)
         # before calling f(x) each time. This will make it possible
         # to test cost functions with built in randomness later.
+
