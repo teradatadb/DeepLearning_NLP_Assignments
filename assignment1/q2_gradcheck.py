@@ -29,4 +29,4 @@ def gradcheck_naive(f, x):
         # before calling f(x) each time. This will make it possible
         # to test cost functions with built in randomness later.
 
-     
+       
