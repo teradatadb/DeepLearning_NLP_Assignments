@@ -30,4 +30,4 @@ def gradcheck_naive(f, x):
         # to test cost functions with built in randomness later.
 
         ### YOUR CODE HERE:
-        old_value = x
+        old_value = x[ix
