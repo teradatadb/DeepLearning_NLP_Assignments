@@ -31,4 +31,4 @@ def gradcheck_naive(f, x):
 
         ### YOUR CODE HERE:
         old_value = x[ix]
-        random.setstate(rndstate
+        random.setstate(rndstate)
