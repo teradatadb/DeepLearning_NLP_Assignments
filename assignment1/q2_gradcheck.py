@@ -33,4 +33,5 @@ def gradcheck_naive(f, x):
         old_value = x[ix]
         random.setstate(rndstate)
         x[ix] = old_value + h
-        fxh_left, _ = 
+        fxh_left, _ = f(x)
+  
