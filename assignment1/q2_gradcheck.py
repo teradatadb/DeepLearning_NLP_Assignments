@@ -40,3 +40,5 @@ def gradcheck_naive(f, x):
         numgrad = (fxh_left - fxh_right) / (2 * h)
         x[ix] = old_value
         ### END YOUR CODE
+
+     
