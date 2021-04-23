@@ -41,4 +41,4 @@ def gradcheck_naive(f, x):
         x[ix] = old_value
         ### END YOUR CODE
 
-        # Compare g
+        # Compare gradi
