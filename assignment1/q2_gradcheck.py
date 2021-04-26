@@ -42,4 +42,4 @@ def gradcheck_naive(f, x):
         ### END YOUR CODE
 
         # Compare gradients
-        reldiff = abs(numgrad
+        reldiff = abs(numgrad - grad[
