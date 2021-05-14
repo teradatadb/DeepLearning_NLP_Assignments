@@ -45,4 +45,4 @@ def gradcheck_naive(f, x):
         reldiff = abs(numgrad - grad[ix]) / max(1, abs(numgrad), abs(grad[ix]))
         if reldiff > 1e-5:
             print("Gradient check failed.")
-            print("First gradient error f
+            print("First gradient error foun
