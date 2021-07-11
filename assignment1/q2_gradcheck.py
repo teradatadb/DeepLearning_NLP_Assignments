@@ -46,4 +46,4 @@ def gradcheck_naive(f, x):
         if reldiff > 1e-5:
             print("Gradient check failed.")
             print("First gradient error found at index %s" % str(ix))
-            print("Your gradi
+            print("Your gradien
