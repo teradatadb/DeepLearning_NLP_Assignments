@@ -47,4 +47,4 @@ def gradcheck_naive(f, x):
             print("Gradient check failed.")
             print("First gradient error found at index %s" % str(ix))
             print("Your gradient: %f \t Numerical gradient: %f" % (
-   
+     
