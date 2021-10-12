@@ -50,4 +50,4 @@ def gradcheck_naive(f, x):
                 grad[ix], numgrad))
             return
 
-        it.iternext() # Step to next
+        it.iternext() # Step to next dime
