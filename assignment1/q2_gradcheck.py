@@ -51,3 +51,5 @@ def gradcheck_naive(f, x):
             return
 
         it.iternext() # Step to next dimension
+
+  
