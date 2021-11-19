@@ -55,4 +55,4 @@ def gradcheck_naive(f, x):
     print("Gradient check passed!")
 
 
-def 
+def san
