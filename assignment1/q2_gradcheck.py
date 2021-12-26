@@ -55,4 +55,5 @@ def gradcheck_naive(f, x):
     print("Gradient check passed!")
 
 
-def sanity_check(
+def sanity_check():
+   
