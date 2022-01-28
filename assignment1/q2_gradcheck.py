@@ -57,4 +57,4 @@ def gradcheck_naive(f, x):
 
 def sanity_check():
     """
-    Some basic sanity chec
+    Some basic sanity checks.
