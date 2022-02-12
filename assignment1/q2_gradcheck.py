@@ -59,4 +59,4 @@ def sanity_check():
     """
     Some basic sanity checks.
     """
-    quad = lambda x: (np.sum
+    quad = lambda x: (np.sum(x 
