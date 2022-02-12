@@ -59,3 +59,4 @@ def sanity_check():
     """
     Some basic sanity checks.
     """
+    qu
