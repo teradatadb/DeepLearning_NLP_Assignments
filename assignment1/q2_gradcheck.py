@@ -62,4 +62,4 @@ def sanity_check():
     quad = lambda x: (np.sum(x ** 2), x * 2)
 
     print("Running sanity checks...")
-    gr
+    grad
