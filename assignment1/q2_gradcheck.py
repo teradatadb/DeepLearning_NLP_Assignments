@@ -62,4 +62,4 @@ def sanity_check():
     quad = lambda x: (np.sum(x ** 2), x * 2)
 
     print("Running sanity checks...")
-    gradcheck_naive(quad, np.array(1
+    gradcheck_naive(quad, np.array(123.4
