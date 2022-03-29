@@ -63,3 +63,4 @@ def sanity_check():
 
     print("Running sanity checks...")
     gradcheck_naive(quad, np.array(123.456))      # scalar test
+  
