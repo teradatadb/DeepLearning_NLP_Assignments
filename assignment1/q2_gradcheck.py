@@ -66,3 +66,6 @@ def sanity_check():
     gradcheck_naive(quad, np.random.randn(3,))    # 1-D test
     gradcheck_naive(quad, np.random.randn(4,5))   # 2-D test
     print()
+
+
+def y
