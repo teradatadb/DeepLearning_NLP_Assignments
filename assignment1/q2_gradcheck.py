@@ -68,4 +68,4 @@ def sanity_check():
     print()
 
 
-def you
+def your_sanity
