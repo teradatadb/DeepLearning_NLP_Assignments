@@ -70,4 +70,4 @@ def sanity_check():
 
 def your_sanity_checks():
     """
-    Use this space add any addi
+    Use this space add any additional
