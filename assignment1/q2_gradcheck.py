@@ -71,4 +71,4 @@ def sanity_check():
 def your_sanity_checks():
     """
     Use this space add any additional sanity checks by running:
-        python q2_gradch
+        python q2_gradcheck.
