@@ -72,4 +72,4 @@ def your_sanity_checks():
     """
     Use this space add any additional sanity checks by running:
         python q2_gradcheck.py
-    This function will not be calle
+    This function will not be called by
