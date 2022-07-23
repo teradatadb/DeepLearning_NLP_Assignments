@@ -75,4 +75,4 @@ def your_sanity_checks():
     This function will not be called by the autograder, nor will
     your additional tests be graded.
     """
-    print("Running your sanity
+    print("Running your sanity checks.
