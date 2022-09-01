@@ -81,4 +81,4 @@ def your_sanity_checks():
     ### END YOUR CODE
 
 
-if __name__
+if __name__ == 
