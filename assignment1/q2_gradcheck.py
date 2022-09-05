@@ -81,4 +81,4 @@ def your_sanity_checks():
     ### END YOUR CODE
 
 
-if __name__ == "__ma
+if __name__ == "__main__
