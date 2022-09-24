@@ -82,4 +82,5 @@ def your_sanity_checks():
 
 
 if __name__ == "__main__":
-    sanity_che
+    sanity_check()
+  
