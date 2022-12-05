@@ -10,3 +10,12 @@ from q2_gradcheck import gradcheck_naive
 
 
 def forward_backward_prop(data, labels, params, dimensions):
+    """
+    Forward and backward propagation for a two-layer sigmoidal network
+
+    Compute the forward propagation and for the cross entropy cost,
+    and backward propagation for the gradients for all parameters.
+
+    Arguments:
+    data -- M x Dx matrix, where each row is a training example.
+    labels -- M x Dy matrix, where each row is a one-hot vector.
