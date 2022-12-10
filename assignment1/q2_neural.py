@@ -19,3 +19,7 @@ def forward_backward_prop(data, labels, params, dimensions):
     Arguments:
     data -- M x Dx matrix, where each row is a training example.
     labels -- M x Dy matrix, where each row is a one-hot vector.
+    params -- Model parameters, these are unpacked for you.
+    dimensions -- A tuple of input dimension, number of hidden units
+                  and output dimension
+    """
