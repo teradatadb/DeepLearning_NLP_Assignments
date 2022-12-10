@@ -23,3 +23,7 @@ def forward_backward_prop(data, labels, params, dimensions):
     dimensions -- A tuple of input dimension, number of hidden units
                   and output dimension
     """
+
+    ### Unpack network parameters (do not modify)
+    ofs = 0
+    Dx, H, Dy = (dimensions[0], dimensions[1], dimensions[2])
