@@ -27,3 +27,6 @@ def forward_backward_prop(data, labels, params, dimensions):
     ### Unpack network parameters (do not modify)
     ofs = 0
     Dx, H, Dy = (dimensions[0], dimensions[1], dimensions[2])
+
+    W1 = np.reshape(params[ofs:ofs+ Dx * H], (Dx, H))
+    ofs += Dx * H
