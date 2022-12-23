@@ -30,3 +30,8 @@ def forward_backward_prop(data, labels, params, dimensions):
 
     W1 = np.reshape(params[ofs:ofs+ Dx * H], (Dx, H))
     ofs += Dx * H
+    b1 = np.reshape(params[ofs:ofs + H], (1, H))
+    ofs += H
+    W2 = np.reshape(params[ofs:ofs + H * Dy], (H, Dy))
+    ofs += H * Dy
+    b2 = np.reshape(params[ofs:ofs + Dy], (1, Dy))
