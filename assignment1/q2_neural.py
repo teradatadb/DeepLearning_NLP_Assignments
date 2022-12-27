@@ -40,3 +40,6 @@ def forward_backward_prop(data, labels, params, dimensions):
     h1_out = np.dot(data, W1) + b1
     h1_act = sigmoid(h1_out)
     h2_out = np.dot(h1_act, W2) + b2
+    probs = softmax(h2_out)
+    cost = np.mean(np.sum(-labels * np.log(probs), axis=1))
+    ### END YOUR CODE
