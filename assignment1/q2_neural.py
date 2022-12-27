@@ -35,3 +35,8 @@ def forward_backward_prop(data, labels, params, dimensions):
     W2 = np.reshape(params[ofs:ofs + H * Dy], (H, Dy))
     ofs += H * Dy
     b2 = np.reshape(params[ofs:ofs + Dy], (1, Dy))
+
+    ### YOUR CODE HERE: forward propagation
+    h1_out = np.dot(data, W1) + b1
+    h1_act = sigmoid(h1_out)
+    h2_out = np.dot(h1_act, W2) + b2
