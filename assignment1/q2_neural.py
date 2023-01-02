@@ -43,3 +43,7 @@ def forward_backward_prop(data, labels, params, dimensions):
     probs = softmax(h2_out)
     cost = np.mean(np.sum(-labels * np.log(probs), axis=1))
     ### END YOUR CODE
+
+    ### YOUR CODE HERE: backward propagation
+    M = data.shape[0]
+    dh2_out = (probs - labels) / M
