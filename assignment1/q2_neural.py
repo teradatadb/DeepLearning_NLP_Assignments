@@ -53,3 +53,6 @@ def forward_backward_prop(data, labels, params, dimensions):
     gradW1 = np.dot(data.T, dh1_out)
     gradb1 = np.sum(dh1_out, axis=0, keepdims=True)
     ### END YOUR CODE
+
+    ### Stack gradients (do not modify)
+    grad = np.concatenate((gradW1.flatten(), gradb1.flatten(),
