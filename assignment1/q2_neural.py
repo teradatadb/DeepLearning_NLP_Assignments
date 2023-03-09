@@ -47,3 +47,9 @@ def forward_backward_prop(data, labels, params, dimensions):
     ### YOUR CODE HERE: backward propagation
     M = data.shape[0]
     dh2_out = (probs - labels) / M
+    gradW2 = np.dot(h1_act.T, dh2_out)
+    gradb2 = np.sum(dh2_out, axis=0, keepdims=True)
+    dh1_out = np.dot(dh2_out, W2.T) * sigmoid_grad(h1_act)
+    gradW1 = np.dot(data.T, dh1_out)
+    gradb1 = np.sum(dh1_out, axis=0, keepdims=True)
+    ### END YOUR CODE
