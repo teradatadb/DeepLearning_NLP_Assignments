@@ -56,3 +56,6 @@ def forward_backward_prop(data, labels, params, dimensions):
 
     ### Stack gradients (do not modify)
     grad = np.concatenate((gradW1.flatten(), gradb1.flatten(),
+        gradW2.flatten(), gradb2.flatten()))
+
+    return cost, grad
