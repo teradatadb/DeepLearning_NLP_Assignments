@@ -59,3 +59,9 @@ def forward_backward_prop(data, labels, params, dimensions):
         gradW2.flatten(), gradb2.flatten()))
 
     return cost, grad
+
+
+def sanity_check():
+    """
+    Set up fake data and parameters for the neural network, and test using
+    gradcheck.
