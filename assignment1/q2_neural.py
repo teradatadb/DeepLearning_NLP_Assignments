@@ -65,3 +65,12 @@ def sanity_check():
     """
     Set up fake data and parameters for the neural network, and test using
     gradcheck.
+    """
+    print("Running sanity check...")
+
+    N = 20
+    dimensions = [10, 5, 10]
+    data = np.random.randn(N, dimensions[0])   # each row will be a datum
+    labels = np.zeros((N, dimensions[2]))
+    for i in range(N):
+        labels[i, random.randint(0,dimensions[2]-1)] = 1
