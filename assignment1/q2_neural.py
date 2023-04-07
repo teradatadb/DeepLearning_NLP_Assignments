@@ -74,3 +74,6 @@ def sanity_check():
     labels = np.zeros((N, dimensions[2]))
     for i in range(N):
         labels[i, random.randint(0,dimensions[2]-1)] = 1
+
+    params = np.random.randn((dimensions[0] + 1) * dimensions[1] + (
+        dimensions[1] + 1) * dimensions[2], )
