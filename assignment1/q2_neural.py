@@ -84,3 +84,8 @@ def sanity_check():
 
 def your_sanity_checks():
     """
+    Use this space add any additional sanity checks by running:
+        python q2_neural.py
+    This function will not be called by the autograder, nor will
+    your additional tests be graded.
+    """
