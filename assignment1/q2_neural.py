@@ -77,3 +77,10 @@ def sanity_check():
 
     params = np.random.randn((dimensions[0] + 1) * dimensions[1] + (
         dimensions[1] + 1) * dimensions[2], )
+
+    gradcheck_naive(lambda params:
+        forward_backward_prop(data, labels, params, dimensions), params)
+
+
+def your_sanity_checks():
+    """
