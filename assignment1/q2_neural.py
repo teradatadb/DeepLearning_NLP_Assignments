@@ -89,3 +89,9 @@ def your_sanity_checks():
     This function will not be called by the autograder, nor will
     your additional tests be graded.
     """
+    print("Running your sanity checks...")
+    ### YOUR CODE HERE
+    N = 50
+    dimensions = [64, 100, 10]
+    data = np.random.randn(N, dimensions[0])   # each row will be a datum
+    labels = np.zeros((N, dimensions[2]))
