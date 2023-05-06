@@ -104,3 +104,8 @@ def your_sanity_checks():
     gradcheck_naive(lambda params:
         forward_backward_prop(data, labels, params, dimensions), params)
     ### END YOUR CODE
+
+
+if __name__ == "__main__":
+    sanity_check()
+    your_sanity_checks()
