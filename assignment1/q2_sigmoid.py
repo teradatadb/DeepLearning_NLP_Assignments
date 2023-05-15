@@ -13,3 +13,7 @@ def sigmoid(x):
 
     Return:
     s -- sigmoid(x)
+    """
+
+    ### YOUR CODE HERE
+    # normal implementation
