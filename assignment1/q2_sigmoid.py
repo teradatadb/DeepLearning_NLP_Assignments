@@ -27,3 +27,6 @@ def sigmoid(x):
     t[neg_mask] = z[neg_mask]
     s = t / (1 + z)
     ### END YOUR CODE
+
+    return s
+
