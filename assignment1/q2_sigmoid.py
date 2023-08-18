@@ -30,3 +30,11 @@ def sigmoid(x):
 
     return s
 
+
+def sigmoid_grad(s):
+    """
+    Compute the gradient for the sigmoid function here. Note that
+    for this implementation, the input s should be the sigmoid
+    function value of your original input x.
+
+    Arguments:
