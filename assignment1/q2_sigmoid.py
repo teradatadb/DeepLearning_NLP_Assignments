@@ -43,3 +43,7 @@ def sigmoid_grad(s):
     Return:
     ds -- Your computed gradient.
     """
+
+    ### YOUR CODE HERE
+    ds = s * (1 - s)
+    ### END YOUR CODE
