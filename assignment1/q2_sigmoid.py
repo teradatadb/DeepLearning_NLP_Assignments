@@ -47,3 +47,6 @@ def sigmoid_grad(s):
     ### YOUR CODE HERE
     ds = s * (1 - s)
     ### END YOUR CODE
+
+    return ds
+
