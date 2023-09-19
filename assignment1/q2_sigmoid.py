@@ -38,3 +38,8 @@ def sigmoid_grad(s):
     function value of your original input x.
 
     Arguments:
+    s -- A scalar or numpy array.
+
+    Return:
+    ds -- Your computed gradient.
+    """
