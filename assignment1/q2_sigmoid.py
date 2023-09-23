@@ -50,3 +50,6 @@ def sigmoid_grad(s):
 
     return ds
 
+
+def test_sigmoid_basic():
+    """
