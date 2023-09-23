@@ -53,3 +53,5 @@ def sigmoid_grad(s):
 
 def test_sigmoid_basic():
     """
+    Some simple tests to get you started.
+    Warning: these are not exhaustive.
