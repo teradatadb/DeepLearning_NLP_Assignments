@@ -55,3 +55,10 @@ def test_sigmoid_basic():
     """
     Some simple tests to get you started.
     Warning: these are not exhaustive.
+    """
+    print("Running basic tests...")
+    x = np.array([[1, 2], [-1, -2]])
+    f = sigmoid(x)
+    g = sigmoid_grad(f)
+    print(f)
+    f_ans = np.array([
