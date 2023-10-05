@@ -62,3 +62,8 @@ def test_sigmoid_basic():
     g = sigmoid_grad(f)
     print(f)
     f_ans = np.array([
+        [0.73105858, 0.88079708],
+        [0.26894142, 0.11920292]])
+    assert np.allclose(f, f_ans, rtol=1e-05, atol=1e-06)
+    print(g)
+    g_ans = np.array([
