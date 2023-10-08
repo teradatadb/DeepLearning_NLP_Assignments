@@ -67,3 +67,6 @@ def test_sigmoid_basic():
     assert np.allclose(f, f_ans, rtol=1e-05, atol=1e-06)
     print(g)
     g_ans = np.array([
+        [0.19661193, 0.10499359],
+        [0.19661193, 0.10499359]])
+    assert np.allclose(g, g_ans, rtol=1e-05, atol=1e-06)
