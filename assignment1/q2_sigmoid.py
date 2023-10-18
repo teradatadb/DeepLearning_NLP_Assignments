@@ -74,3 +74,11 @@ def test_sigmoid_basic():
 
 
 def test_sigmoid():
+    """
+    Use this space to test your sigmoid implementation by running:
+        python q2_sigmoid.py
+    This function will not be called by the autograder, nor will
+    your tests be graded.
+    """
+    print("Running your tests...")
+    ### YOUR CODE HERE
