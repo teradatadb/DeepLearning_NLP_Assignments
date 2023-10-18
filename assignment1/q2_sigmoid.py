@@ -70,3 +70,7 @@ def test_sigmoid_basic():
         [0.19661193, 0.10499359],
         [0.19661193, 0.10499359]])
     assert np.allclose(g, g_ans, rtol=1e-05, atol=1e-06)
+    print("You should verify these results by hand!\n")
+
+
+def test_sigmoid():
