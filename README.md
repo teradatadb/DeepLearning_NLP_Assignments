@@ -5,3 +5,6 @@ The assignments for [CS224n: Natural Language Processing with Deep Learning](htt
 ## Environment
 - Windows 10
 - Python 3.5
+
+## Assignment1
+(Here we would describe the specific assignments, its objectives and any special instructions for running or testing it.)
